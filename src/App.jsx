@@ -11,7 +11,6 @@ import Section_7 from './components/home/section-7';
 import Section_8 from './components/home/section-8';
 import Footer from './components/home/footer';
 import React from 'react';
-import ReactPlaceholder from 'react-placeholder';
 
 function App() {
   const width = 280;

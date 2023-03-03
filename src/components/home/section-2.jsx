@@ -1,4 +1,3 @@
-import ReactPlaceholder from "react-placeholder/lib";
 import React, { useState } from 'react';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import Skeleton from "./skeleton";
