@@ -1,6 +1,6 @@
 import LabuanBajo from '../../assets/labuan-bajo-2.png';
 
-export default function Section_5()
+export default function Section5()
 {
     return (
         <section className="px-6 pb-10 md:px-16 lg:px-32 lg:mt-20">

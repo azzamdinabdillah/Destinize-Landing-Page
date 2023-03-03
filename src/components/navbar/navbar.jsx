@@ -28,35 +28,35 @@ function Navbar(){
             <div className="px-5 mt-3 md:flex justify-around lg:justify-between items-center gap-5 lg:px-28 md:px-16 lg:mt-5 hidden">
                 <div className="flex justify-start items-center gap-2 lg:gap-10 flex-wrap md:text-sm">
                     <div className="flex justify-start items-center gap-2 text-slate-400 font-medium">
-                        <a href="#">Gunung</a>
+                        <button href="#">Gunung</button>
                         <img src="/img/arrow-down.png" alt="" />
                     </div>
                     <div className="flex justify-start items-center gap-2 text-slate-400 font-medium">
-                        <a href="#">Pantai</a>
+                        <button href="#">Pantai</button>
                         <img src="/img/arrow-down.png" alt="" />
                     </div>
                     <div className="flex justify-start items-center gap-2 text-slate-400 font-medium">
-                        <a href="#">Kuliner</a>
+                        <button href="#">Kuliner</button>
                         <img src="/img/arrow-down.png" alt="" />
                     </div>
                     <div className="flex justify-start items-center gap-2 text-slate-400 font-medium">
-                        <a href="#">Outbound</a>
+                        <button href="#">Outbound</button>
                         <img src="/img/arrow-down.png" alt="" />
                     </div>
                     <div className="flex justify-start items-center gap-2 text-slate-400 font-medium">
-                        <a href="#">Sejarah</a>
+                        <button href="#">Sejarah</button>
                         <img src="/img/arrow-down.png" alt="" />
                     </div>
                     <div className="flex justify-start items-center gap-2 text-slate-400 font-medium">
-                        <a href="#">Edukasi</a>
+                        <button href="#">Edukasi</button>
                         <img src="/img/arrow-down.png" alt="" />
                     </div>
                     <div className="flex justify-start items-center gap-2 text-slate-400 font-medium">
-                        <a href="#">Romantis</a>
+                        <button href="#">Romantis</button>
                         <img src="/img/arrow-down.png" alt="" />
                     </div>
                     <div className="flex justify-start items-center gap-2 text-slate-400 font-medium">
-                        <a href="#">Alam</a>
+                        <button href="#">Alam</button>
                         <img src="/img/arrow-down.png" alt="" />
                     </div>
                 </div>

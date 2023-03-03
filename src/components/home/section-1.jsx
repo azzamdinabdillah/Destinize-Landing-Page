@@ -1,4 +1,4 @@
-function Section_1(){
+function Section1(){
     return (
         <section className="px-6 md:px-16 lg:px-28 lg:flex justify-center items-center mt-5 md:mt-10">
         <div className="lg:-translate-y-10">
@@ -24,4 +24,4 @@ function Section_1(){
     )
 }
 
-export default Section_1;
+export default Section1;

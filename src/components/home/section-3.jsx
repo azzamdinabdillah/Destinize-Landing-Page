@@ -1,5 +1,5 @@
 
-function Section_3()
+function Section3()
 {
     return (
         <section className="px-6 pb-20 md:px-16 lg:px-32 lg:flex justify-start items-center lg:gap-32 lg:mt-10">
@@ -73,4 +73,4 @@ function Section_3()
     )
 }
 
-export default Section_3;
+export default Section3;

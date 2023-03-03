@@ -1,4 +1,4 @@
-export default function Section_8()
+export default function Section8()
 {
     return (
         <section className="px-6 md:px-16 lg:px-32 pb-10 mt-10">

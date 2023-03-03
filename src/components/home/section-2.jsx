@@ -2,10 +2,9 @@ import React, { useState } from 'react';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import Skeleton from "./skeleton";
 
-function Section_2()
+function Section2()
 {
     const width = 280;
-    const height = 50;
 
     let classImg = `rounded-lg mx-auto bg-cover`;
 
@@ -13,11 +12,11 @@ function Section_2()
 
     let [skeleton, setSkeleton] = useState(false);
 
-    function sebelumLoad(){
-        setSkeleton(true);
-    }
+    // function sebelumLoad(){
+    //     setSkeleton(true);
+    // }
     
-    if (skeleton == true) {
+    if (skeleton === true) {
         setTimeout(() => {
             setSkeleton(false);
         }, 1000);
@@ -39,7 +38,7 @@ function Section_2()
             <div className="md:flex flex-wrap gap-x-10 justify-center items-center lg:gap-x-14">
                 <div className={classDivImg}>
                 <LazyLoadImage alt="raja-ampat" src="/img/raja-ampat-2.png" width={width} placeholder={<Skeleton/>} className={classImg} />
-                {/* {(skeleton == false) ? <img src="/img/raja-ampat-2.png" width={width} className={classImg} alt="" onLoad={sebelumLoad} /> : <Skeleton/> } */}
+                {/* {(skeleton === false) ? <img src="/img/raja-ampat-2.png" width={width} className={classImg} alt="" onLoad={sebelumLoad} /> : <Skeleton/> } */}
                     <div className="bg-white bg-opacity-80 absolute bottom-0 left-0 px-10 py-3 rounded-tr-xl">
                         <div className="ml-5 md:ml-0">
                             <h1 className="font-bold">Raja Ampat</h1>
@@ -52,7 +51,7 @@ function Section_2()
 
                 <div className={classDivImg}>
                 <LazyLoadImage alt="labuan-bajo" src="/img/labuan-bajo-4.png" width={width} placeholder={<Skeleton/>} className={classImg} />
-                {/* {(skeleton == false) ? <img src="/img/labuan-bajo-4.png" width={width} className={classImg} alt="" onLoad={sebelumLoad} /> : <Skeleton/> } */}
+                {/* {(skeleton === false) ? <img src="/img/labuan-bajo-4.png" width={width} className={classImg} alt="" onLoad={sebelumLoad} /> : <Skeleton/> } */}
                     <div className="bg-white bg-opacity-80 absolute bottom-0 left-0 px-10 py-3 rounded-tr-xl">
                         <div className="ml-5 md:ml-0">
                             <h1 className="font-bold">Labuan Bajo</h1>
@@ -62,7 +61,7 @@ function Section_2()
                 </div>
                 <div className={classDivImg}>
                     <LazyLoadImage alt="kawah-ijen" src="/img/kawah-ijen-2.png" width={width} placeholder={<Skeleton/>} className={classImg} />
-                    {/* {(skeleton == false) ? <img src="/img/kawah-ijen-2.png" width={width} className={classImg} alt="" onLoad={sebelumLoad} /> : <Skeleton/> } */}
+                    {/* {(skeleton === false) ? <img src="/img/kawah-ijen-2.png" width={width} className={classImg} alt="" onLoad={sebelumLoad} /> : <Skeleton/> } */}
                     <div className="bg-white bg-opacity-80 absolute bottom-0 left-0 px-10 py-3 rounded-tr-xl">
                         <div className="ml-5 md:ml-0">
                             <h1 className="font-bold">Kawah Ijen</h1>
@@ -72,7 +71,7 @@ function Section_2()
                 </div>
                 <div className={classDivImg}>
                 <LazyLoadImage alt="bromo" src="/img/bromo-3.png" width={width} placeholder={<Skeleton/>} className={classImg} />
-                {/* {(skeleton == false) ? <img src="/img/bromo-3.png" width={width} className={classImg} alt="" onLoad={sebelumLoad} /> : <Skeleton/> } */}
+                {/* {(skeleton === false) ? <img src="/img/bromo-3.png" width={width} className={classImg} alt="" onLoad={sebelumLoad} /> : <Skeleton/> } */}
                     <div className="bg-white bg-opacity-80 absolute bottom-0 left-0 px-10 py-3 rounded-tr-xl">
                         <div className="ml-5 md:ml-0">
                             <h1 className="font-bold">Bromo</h1>
@@ -86,4 +85,4 @@ function Section_2()
     )
 }
 
-export default Section_2;
+export default Section2;
