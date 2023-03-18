@@ -8,8 +8,8 @@ function Navbar(){
                     <h1 className="font-bold">Destinize</h1>
                 </div>
                 <div className="relative">
-                    <img src="img/seacrh.png" alt="" className="absolute top-1/2 -translate-y-1/2 pl-5" />
-                    <input type="text" className="bg-[#F0F1F2] rounded-full py-2 pl-12 lg:py-3 lg:w-[700px]" placeholder="Cari apapun disini" />
+                    <img src="img/seacrh.png" alt="" className="absolute top-1/2 -translate-y-1/2 pl-5 " />
+                    <input type="text" className="bg-[#F0F1F2] rounded-full py-2 pl-12 lg:py-3 lg:w-[150%]" placeholder="Cari apapun disini" />
                 </div>
                 <div className="lg:flex justify-center items-center gap-3 hidden">
                     <img src="img/globe.png" alt="" />

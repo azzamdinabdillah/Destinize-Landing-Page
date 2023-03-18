@@ -37,8 +37,8 @@ function Section2()
 
             <div className="md:flex flex-wrap gap-x-10 justify-center items-center lg:gap-x-14">
                 <div className={classDivImg}>
-                <LazyLoadImage alt="raja-ampat" src="/img/raja-ampat-2.png" width={width} placeholder={<Skeleton/>} className={classImg} />
-                {/* {(skeleton === false) ? <img src="/img/raja-ampat-2.png" width={width} className={classImg} alt="" onLoad={sebelumLoad} /> : <Skeleton/> } */}
+                <LazyLoadImage alt="raja-ampat" src="/img/raja-ampat-2.jpg" width={width} placeholder={<Skeleton/>} className={classImg} />
+                {/* {(skeleton === false) ? <img src="/img/raja-ampat-2.jpg" width={width} className={classImg} alt="" onLoad={sebelumLoad} /> : <Skeleton/> } */}
                     <div className="bg-white bg-opacity-80 absolute bottom-0 left-0 px-10 py-3 rounded-tr-xl">
                         <div className="ml-5 md:ml-0">
                             <h1 className="font-bold">Raja Ampat</h1>
@@ -50,8 +50,8 @@ function Section2()
                 
 
                 <div className={classDivImg}>
-                <LazyLoadImage alt="labuan-bajo" src="/img/labuan-bajo-4.png" width={width} placeholder={<Skeleton/>} className={classImg} />
-                {/* {(skeleton === false) ? <img src="/img/labuan-bajo-4.png" width={width} className={classImg} alt="" onLoad={sebelumLoad} /> : <Skeleton/> } */}
+                <LazyLoadImage alt="labuan-bajo" src="/img/labuan-bajo-4.jpg" width={width} placeholder={<Skeleton/>} className={classImg} />
+                {/* {(skeleton === false) ? <img src="/img/labuan-bajo-4.jpg" width={width} className={classImg} alt="" onLoad={sebelumLoad} /> : <Skeleton/> } */}
                     <div className="bg-white bg-opacity-80 absolute bottom-0 left-0 px-10 py-3 rounded-tr-xl">
                         <div className="ml-5 md:ml-0">
                             <h1 className="font-bold">Labuan Bajo</h1>
@@ -60,8 +60,8 @@ function Section2()
                     </div>
                 </div>
                 <div className={classDivImg}>
-                    <LazyLoadImage alt="kawah-ijen" src="/img/kawah-ijen-2.png" width={width} placeholder={<Skeleton/>} className={classImg} />
-                    {/* {(skeleton === false) ? <img src="/img/kawah-ijen-2.png" width={width} className={classImg} alt="" onLoad={sebelumLoad} /> : <Skeleton/> } */}
+                    <LazyLoadImage alt="kawah-ijen" src="/img/kawah-ijen-2.jpg" width={width} placeholder={<Skeleton/>} className={classImg} />
+                    {/* {(skeleton === false) ? <img src="/img/kawah-ijen-2.jpg" width={width} className={classImg} alt="" onLoad={sebelumLoad} /> : <Skeleton/> } */}
                     <div className="bg-white bg-opacity-80 absolute bottom-0 left-0 px-10 py-3 rounded-tr-xl">
                         <div className="ml-5 md:ml-0">
                             <h1 className="font-bold">Kawah Ijen</h1>
@@ -70,8 +70,8 @@ function Section2()
                     </div>
                 </div>
                 <div className={classDivImg}>
-                <LazyLoadImage alt="bromo" src="/img/bromo-3.png" width={width} placeholder={<Skeleton/>} className={classImg} />
-                {/* {(skeleton === false) ? <img src="/img/bromo-3.png" width={width} className={classImg} alt="" onLoad={sebelumLoad} /> : <Skeleton/> } */}
+                <LazyLoadImage alt="bromo" src="/img/bromo-3.jpg" width={width} placeholder={<Skeleton/>} className={classImg} />
+                {/* {(skeleton === false) ? <img src="/img/bromo-3.jpg" width={width} className={classImg} alt="" onLoad={sebelumLoad} /> : <Skeleton/> } */}
                     <div className="bg-white bg-opacity-80 absolute bottom-0 left-0 px-10 py-3 rounded-tr-xl">
                         <div className="ml-5 md:ml-0">
                             <h1 className="font-bold">Bromo</h1>

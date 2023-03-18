@@ -15,7 +15,7 @@ export default function Section5()
             </div>
             <div className='md:flex justify-between items-end gap-5'>
                 <div className="bg-white shadow-2xl w-full rounded-xl overflow-hidden mt-5 md:w-[60%] lg:w-[30%]">
-                    <img src="/img/bromo-4.png" alt="" className="bg-cover w-full" />
+                    <img src="/img/bromo-blog.png" alt="" className="bg-cover w-full" />
                     <div className="px-5 py-5">
                         <p className="text-slate-300 text-sm">26 DESEMBER 2021</p>
                         <h1 className="font-bold text-lg font-manrope mt-2">Tips naik gunung Bromo 
