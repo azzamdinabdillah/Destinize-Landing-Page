@@ -17,6 +17,7 @@ function App() {
     <div className="App">
         <Navbar/>
 
+      <div className='max-w-[1600px] mx-auto'>
         <Section1/>
 
         <IconHome/>
@@ -34,8 +35,11 @@ function App() {
         <Section7/>
 
         <Section8/>
+      </div>
 
+    <div className='max-w-[1900px] mx-auto'>
         <Footer/>
+    </div>
     </div>
   );
 }
